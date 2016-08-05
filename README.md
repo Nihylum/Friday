@@ -12,6 +12,10 @@ Friday is developed and maintained by Matthias `nihylum` Kaschubowski.
 Friday is a template engine that implements flat templating (without template inheritance).
 Friday is extensible and can aggregate values from objects.
 
+### Requirements
+
+- PHP 7.0+
+
 ### Basic usage
 
 File `index.php`
@@ -143,3 +147,8 @@ Friday utilizes an exclusive output-buffering based rendering
 mechanism that jails the template into the *static* scope of a
 `Nihylum\Friday\Entity\Scope`-instance. The exclusive scope
 avoids damage to the integrity of defined functions or assignments.
+
+### ToDo
+
+- Adding Composer Support
+- Unit tests
